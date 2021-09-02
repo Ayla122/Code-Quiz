@@ -1,0 +1,28 @@
+:root {
+    --pink: rgb(255, 192, 192);
+    --cream: #FFFDD0; 
+}
+#wrapper{
+    position: auto;
+    left: 30%;
+    top: 20%;
+    width: 500px;
+    height: 500px;
+    border: 1px solid var(--pink);
+    border-radius: 25px;
+    
+ }
+ 
+#startTime {
+    background-color: var(--pink);
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: var(--cream);
+}
+#questionsDiv {
+    margin: 20px;
+}       
+#currentTime {
+    float: right;
+}

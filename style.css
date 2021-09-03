@@ -10,9 +10,7 @@
     height: 500px;
     border: 1px solid var(--pink);
     border-radius: 15px;
-    
  }
- 
 #startTime {
     background-color: var(--pink);
     margin-left: 0%;

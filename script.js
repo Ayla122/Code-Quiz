@@ -57,3 +57,36 @@ timer.addEventListener("onClick", function() {
         }, 1000);
     } render(questionIndex);
 });
+
+function render(questionIndex) {
+    quesstionsDiv.innerHTML = "";
+    ulCreate.innerHTML = "";
+    for (var i = 0; i < questions.length; i++) {
+        var userQuestions = questions[questionIndex].title;
+        var userChoices = questions[questionIndex].choices;
+        quesstionsDiv.textContent = userQuestions;
+    }
+    userChoices.forEach(function (newItem) {
+        var listItem = document.createElement("li");
+        listItem.textContent = newItem;
+        questionsDiv.appendChild(ulCreate);
+        ulCreate.appendChild(listItem);
+        listItem.addEventListener("click", (compare));
+    })
+
+    questionIndex++;
+    if (questionIndex >= questions.length) {
+        allDone();
+        createDiv.textContent = "End of quiz!" + " " + "You got  " + score + "/" + questions.length + " Correct!";
+    } else {
+        render(questionIndex);
+    }
+    questionsDiv.appendChild(createDiv);
+}
+
+
+
+
+
+
+

@@ -4,60 +4,97 @@
     --last: gray;
     --size: 20px;
 }
-#wrapper{
+#wrapper {
     position: absolute;
-    left:26%;
+    left: 30%;
     top: 10%;
-    width: 600px;
+    width: 500px;
     height: 500px;
     border: 1px solid var(--main);
-    border-radius: 15px;
- }
+    border-radius: 20px;
+}
 #startTime {
-    background-color: var(--main);
-    margin-left: 0%;
+    background-color: var(--main);;
+    margin-left: 33%;
     padding: 15px 32px;
-    font-size: 20px;
+    font-size: var(--size);
     color: var(--minor);
-    border-radius: 15px;
 }
 #questionsDiv {
-    margin: 10px;
-    padding: 100px;
-    text-align: center;
-}       
+    margin: 20px;
+}
+
 #currentTime {
     float: right;
 }
-textarea {
-    width: 75%;
-    margin: 20px;
-}
+
 #goBack {
-    background-color: var(--main);
-    color: var(--minor);
-    font-size: var(--size);
+    background-color: var(--main);;
     position: relative;
-    padding: 15px;
+    padding: 10px;
+    font-size: var(--size);
+    color: var(--minor);
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
 }
+
 #clear {
     background-color: var(--main);
-    color: var(--minor);
-    font-size: var(--size);
     position: relative;
-    padding: 15px;
+    padding: 10px;
+    font-size: var(--size);
+    color: var(--minor);
+    top: 30%;
+    right: 5%;
+    text-align: center;
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: var(--main);
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: var(--minor);
+}
+
+label {
+    margin-right: 10px;
 }
 input {
+    margin-bottom: 20px;
+    width: 50%;
     border: 1px solid var(--last);
-    width: 30%;
-    margin-bottom: 25px;
 }
+
+h1 {
+    text-align: center;
+}
+
 li {
     background-color: var(--main);
-    border-radius: 20px;
-    color: var(--minor);
-    font-size: var(--size);
     margin-top: 10px;
     padding: 5px 15px;
     width: 80%;
+    font-size: 18px;
+    color: var(--minor);
+    border-radius: 20px;
+    text-align: center;
 }
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid var(--last);
+}
+

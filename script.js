@@ -98,7 +98,7 @@ function compare(event) {
 }
 function allDone() {
     questionsDiv.innerHTML = "";
-    currentT.innerHTML = "";
+    currentTime.innerHTML = "";
     var createH1 = document.createElement("h1");
     createH1.setAttribute("id", "createH1");
     createH1.textContent = "All Done!"

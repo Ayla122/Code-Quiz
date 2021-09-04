@@ -16,6 +16,7 @@ if (allScores !== null) {
         highScore.appendChild(createLi);
     }
 }
+
 clear.addEventListener("click", function () {
     localStorage.clear();
     location.reload();

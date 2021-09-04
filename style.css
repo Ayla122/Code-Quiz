@@ -33,4 +33,8 @@ textarea {
 }
 #goBack {
     background-color: var(--main);
+    color: var(--minor);
+    font-size: 30px;
+    position: relative;
+    padding: 15px;
 }

@@ -1,6 +1,8 @@
 :root {
     --main: rgb(255, 192, 192);
     --minor: #FFFDD0; 
+    --last: gray;
+    --size: 20px;
 }
 #wrapper{
     position: absolute;
@@ -34,14 +36,28 @@ textarea {
 #goBack {
     background-color: var(--main);
     color: var(--minor);
-    font-size: 30px;
+    font-size: var(--size);
     position: relative;
     padding: 15px;
 }
 #clear {
     background-color: var(--main);
     color: var(--minor);
-    font-size: 30px;
+    font-size: var(--size);
     position: relative;
     padding: 15px;
+}
+input {
+    border: 1px solid var(--last);
+    width: 30%;
+    margin-bottom: 25px;
+}
+li {
+    background-color: var(--main);
+    border-radius: 20px;
+    color: var(--minor);
+    font-size: var(--size);
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 80%;
 }
